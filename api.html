@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Store API</title>
+    <link rel="stylesheet" href="api.css">
+</head>
+<body>
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search by product name...">
+        <button onclick="search()">Search</button>
+    </div>
+
+    <div class="card-container" id="cardContainer">
+    </div>
+
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+</body>
+</html>

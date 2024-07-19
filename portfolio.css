@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit");
+@import url("https://fonts.googleapis.com/css2?family=Barriecito");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn");
+@import url("https://fonts.googleapis.com/css2?family=Patua One");
+@import url("https://fonts.googleapis.com/css2?family=Bricolage Grotesque");
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.card{
+
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    padding-left: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+
+}
+.navbar a:hover,
+.navbar a.active {
+
+    color: rgb(238, 123, 123);;
+
+}
+
+.fa-facebook{
+    color: white;
+
+}.fa-instagram{
+    color: white;
+
+}
+.fa-linkedin{
+    color: white;
+
+}
+.fa-twitter{
+    color: white;
+
+}
+.font3{
+    display: flex;
+    grid-gap: 30px;
+    font-size: 27px;
+    padding-left:158px ;
+    padding-top: 40px;
+}
+.nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    width: 97%;
+    box-shadow: 0 5px 80px rgba(255, 251, 251, 0.03);
+    border-radius: 10px;
+    position:sticky ;
+    top:0;
+    left:0;
+    background-color: black;
+}
+
+.navbar {
+
+    display: flex;   
+    align-items:right;
+    justify-content: space-between;
+    color:rgb(255, 255, 255);
+    
+
+}
+.navbar a{
+    padding-right: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Barriecito', sans-serif;
+}
+.fbi{
+    position:absolute;
+    left: 0;
+    top:0;
+    z-index: -1;
+    height: 100vh;
+    width:100vw;
+    object-fit: cover;
+    
+}
+.word-img::before {
+    content: "";
+    display: inline-block;
+    width: 80px; /* Adjust size as needed */
+    height: 75px; /* Adjust size as needed */
+    background-image: url('file:///C:/Users/DELL/Downloads/WhatsApp%20Image%202023-08-15%20at%2012.53.18%20PM.jpeg');
+    background-size: cover;
+    margin-right: 10px; /* Adjust spacing as needed */
+    border-radius: 60%;
+    margin-top: 20px;
+  }
+.fa-paper-plane{
+    color: red;
+    padding-left:130px ;
+    font-size: 27px;
+
+  }
+  .fa-square-phone{
+    color: red;
+    padding-left:130px ;
+    padding-top: 30px;
+    font-size: 27px;
+  }
+  .horizontal-line-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0; /* Add vertical padding as needed */
+  }
+  
+  .centered-line {
+    width: 80%; /* Set the desired width of the line */
+    border: none; /* Remove the default line appearance */
+    border-top: 3px solid rgb(255, 255, 255); /* Add your desired line style */
+  }
+  .abcd:hover{
+        background-color: rgb(238, 123, 123);
+  }
+  .line-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px; /* Add vertical padding as needed */
+  }
+  .line{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  
